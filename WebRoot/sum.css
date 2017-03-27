@@ -1,0 +1,116 @@
+/*---------- 总CSS设计 ----------*/
+
+body,div,table,tr,td,p,ul,li,ol {
+	margin: 0px;
+	padding: 0px;
+}
+
+/*---------- 登陆界面CSS设计 ----------*/
+.back {
+	border:1px solid #000;
+	border-top:3px solid #2e4c8c;
+	margin:120px auto 0 auto;
+	width: 400px;
+	height: 550px;
+	display: block;
+	padding: 0 0 0 0;
+}
+
+.loginDiv {
+	width:700px;
+	height:70px;
+	display: block;
+}
+
+.username,.password,.code,.name {
+	font-size: 15px;
+    height: 40px;
+    margin: 20px 34px 0px 34px;
+    padding: 5px 10px;
+    width: 310px;
+}
+
+.img {
+	margin: 0px 0px -18px 0px;
+}
+
+.logo {
+	border-radius:50%;
+	margin: 20px 175px 0px 175px;
+}
+
+.enter {
+	border:0px;
+    text-align: center;
+    line-height: 50px;
+    font-size:20px;
+    margin: 20px 10px 0px 34px;
+    font-weight:bolder;
+    width:160px;
+	height:50px;
+    color:#ffffff;
+    background-color: #2e4c8c;
+    cursor: pointer;
+}
+
+.register,.goBack {
+	border:0px;
+    text-align: center;
+    line-height: 50px;
+    font-size:20px;
+    font-weight:bolder;
+    width:160px;
+	height:50px;
+    color:#ffffff;
+    background-color: #2e4c8c;
+    cursor: pointer;
+}
+
+.code {
+	width:160px;
+	margin: 20px 24px 0px 34px;
+	vertical-align: middle;
+}
+
+.copy {
+	margin: 110px 0px 0px 0px;
+	line-height:80px;
+	color:#dedede;
+	font-size: 14px;
+	padding: 0 0 0 70px;
+}
+
+.back #username_msg,#password_msg,#code_msg,#registerUsername_msg,#registerPassword_msg,#reRegisterPassword_msg,#registerCode_msg,#registerName_msg {
+	color:red;
+	font-weight:bolder;
+	font-size:20px;
+	float:right;
+	height:45px;
+	padding: 25px 0 0 0;
+	display: inline-block;
+	margin: 10px 0 0 0;
+}
+
+.codeDiv {
+	padding: 0px;
+}
+
+.password {
+	margin: 20px 34px 20px 34px;
+}
+
+.back .mistake_msg {
+	width:330px;
+	height:100px;
+	text-align: center;
+    line-height: 100px;
+	margin:0px auto;
+	color:red;
+	font-weight:bolder;
+	font-size:20px;
+}
+
+.welcome {
+	color: pink;
+}
+
